@@ -5,12 +5,12 @@
 npm i vue-filepreview
 ```
 Then you need to import it like:
-```
+```Vue
 import 'vue-filepreview'
 ```
 
 ## Usage
-```
+```Vue
 <FilePreview height="100" file_type="pdf" title="foo" />
 ```
 
