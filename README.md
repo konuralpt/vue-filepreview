@@ -1,16 +1,16 @@
 # vue-filepreview
 
 ## Installation
-```
+```bash
 npm i vue-filepreview
 ```
 Then you need to import it like:
-```Vue
+```js
 import 'vue-filepreview'
 ```
 
 ## Usage
-```Vue
+```html
 <FilePreview height="100" file_type="pdf" title="foo" />
 ```
 
