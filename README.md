@@ -10,7 +10,7 @@ import 'vue-filepreview'
 ```
 
 ## Usage
-```html
+```Vue
 <FilePreview height="100" file_type="pdf" title="foo" />
 ```
 
