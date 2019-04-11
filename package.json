@@ -1,12 +1,12 @@
 {
   "name": "vue-filepreview",
   "main": "./dist/FilePreview.common.js",
-  "version": "0.1.1",
+  "version": "0.1.17",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name FilePreview",
+    "build-bundle": "vue-cli-service build --target lib --name FilePreview ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -19,7 +19,10 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.29.6"
   },
   "eslintConfig": {
     "root": true,
@@ -46,10 +49,10 @@
     "not ie <= 8"
   ],
   "files": [
-  "dist/*",
-  "src/*",
-  "public/*",
-  "*.json",
-  "*.js"
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
   ]
 }

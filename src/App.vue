@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <FilePreview height="100" file_type="pdf" title="Merhaba.pdf" />
+    <FilePreview height="100" file_type="pdf" title="Merhaba" />
   </div>
 </template>
 
