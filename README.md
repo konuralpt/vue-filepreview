@@ -4,10 +4,7 @@
 ```bash
 npm i vue-filepreview
 ```
-Then you need to import it like:
-```js
-import 'vue-filepreview'
-```
+
 
 ## Description
 
@@ -25,6 +22,10 @@ psd , rar , rtf , svg , text , tff , txt , unknown , vcf , wav , wmv , xls , xml
 
 
 ## Usage
+```js
+import 'vue-filepreview'
+```
+
 ```Vue
 <FilePreview height="100" file_type="pdf" title="foo" />
 ```
