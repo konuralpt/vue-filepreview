@@ -8,11 +8,11 @@ npm i vue-filepreview
 
 ## Description
 
-a little component that shows file types and icons for your app. Here is how it looks like:
+This is a component prepared for VueJS to show file extentions' previews as icons. Here is how it looks like:
 
 <img src="https://i.ibb.co/pbX1Yq3/example.png" height="230">
 
-here is the file types that you can use for 'file_type' property:
+Here are the file extentions that you can use for "file_type property":
 
 ```
 3ds , ai , asp , avi , bin , com , css , csv , dbf , dll , doc , docc , dwg , eml , eps , exe , fla , gif , 
